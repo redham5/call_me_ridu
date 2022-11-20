@@ -118,6 +118,10 @@ body{
     align-items: center;
 }
 
+.links a:hover{
+    color: #2b2b2b;
+    background: #fff;
+}
 
 
 
