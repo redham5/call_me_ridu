@@ -1,0 +1,79 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+/* all common css end */
+
+/* font part */
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600&display=swap');
+
+:root{
+    --sono: 'Sono', sans-serif;
+}
+/* font part */
+
+body{
+    background: #d8d8d8;
+}
+
+.heading{
+    background: #cacaca;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(61, 61, 61, 0.267);
+}
+
+.heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--sono);
+}
+
+.heading p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--sono);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
